@@ -1,1 +1,0 @@
-# sanber53-mobileautomation-kelompok5
