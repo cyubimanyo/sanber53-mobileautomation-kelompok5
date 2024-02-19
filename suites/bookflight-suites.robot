@@ -1,4 +1,5 @@
 *** Settings ***
+Resource    ../pageObjects/base/base.robot
 Resource    ../pageObjects/homePage/homePage.robot
 Resource    ../pageObjects/loginPage/loginPage.robot
 Resource    ../pageObjects/Bookflight/Bookflight.robot
@@ -12,7 +13,6 @@ Successfully Open Flight Application
     Click Button Sign In Login Page
     Login Successfully
     Click Button Book
-
 
 Book Scenario
     Select From City
